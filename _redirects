@@ -1,0 +1,8 @@
+# Cloudflare Pages redirects for the static deployment (copied to out/ by scripts/build-cf.mjs).
+# Replicates the one rewrite the Next proxy (src/proxy.ts) performs that static hosting
+# cannot: /bible/my/... is a placeholder for the reader's preferred translation.
+# A static redirect cannot read the preference cookie, so it lands on the default
+# translation (BSB) — exactly what the proxy does for every reader without the cookie.
+# The in-page translation switcher still lets readers change translation from there.
+/bible/my/* /bible/bsb/:splat 307
+/bible/my /bible/bsb 307
