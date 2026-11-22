@@ -37,4 +37,4 @@ Disallow: /groups/
 Disallow: /*?*
 Crawl-delay: 5
 
-Sitemap: https://bibleway.pages.dev/sitemap.xml
+Sitemap: https://dejoski.github.io/sitemap.xml
