@@ -38,3 +38,4 @@ Disallow: /*?*
 Crawl-delay: 5
 
 Sitemap: https://dejoski.github.io/sitemap.xml
+Sitemap: https://dejoski.github.io/seating-chart-maker/sitemap.xml
